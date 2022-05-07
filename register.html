@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Register</title>
+</head>
+
+ <style>
+    body 
+    {
+      background-image: url('https://i.imgur.com/vYFJld8.png');
+      background-repeat: no-repeat;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #570566;
+    }
+
+    li {
+      float: left;
+      border-right:1px solid #bbb;
+    }
+
+    li:last-child {
+      border-right: none;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+      background-color: #D62BBA;
+    }
+
+    .active {
+      background-color: #D62BBA;
+    }
+
+
+
+
+</style>
+	
+<body>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About me</a></li>
+        <li class="active"><a href="register.html">Register</a></li>
+        
+    </ul>
+
+    <hr>
+ 	<h1>Register here for updates !!</h1><hr>
+
+
+
+
+	<form method="GET"> 
+
+		Username : <input type="text" name="username"><br>
+					
+		Email : <input type="email" name="email" required><br>
+
+		Password : <input type="password" name="password" min="5"><br>
+		
+		Birthday : <input type="date" name="birthday"><br><br>
+		
+		Fellow FFXIV player ? : <br>
+		<input type="radio" name="player" value="Yes">Yes<br>
+		<input type="radio" name="player" value="No">No<br>
+		<input type="radio" name="player" value="maybe">I'm thinking about it !<br><br>
+		
+		Do you want to receive the Newsletter every month ? :<br>
+		<input type="radio" name="Newsletter" value="Yes">Yes<br>
+		<input type="radio" name="Newsletter" value="No">No<br><br>
+		
+	
+
+		<input type="submit" value="Register !">
+		<input type="reset" ><br>
+	</form>
+
+
+
+</body>
+
+</html>
+
